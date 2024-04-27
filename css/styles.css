@@ -10,9 +10,10 @@ html {
     box-sizing: inherit;
 }
 
-/* HEADER */
+/*HEADER */
 header{
     color: white;
+    font-family:'FFDIN Regular',FFDIN,Arial,sans-serif;
 }
 
 .navbar a {
@@ -29,7 +30,6 @@ header{
 
 .barra_cafeclaro {
     padding: 15px;
-    font-family: "FFDIN Regular", FFDIN, Arial, sans-serif;
 }
 
 .barra_cafeclaro p {
@@ -40,7 +40,7 @@ header{
 .contenedor-nav {
     width: 100%; 
     height: 7rem;
-    background-color:black
+    background-color:#181818
 }
 
 .navbar1 {
@@ -66,7 +66,7 @@ header{
     display: inline-block;
     padding: 10px 20px;
     font-size: 14px;
-    background-color: #000; 
+    background-color: #181818; 
     border: solid #555; 
     border-radius: 5px;
 }
@@ -96,12 +96,11 @@ header{
 
 .texto-barra-amarilla p{
     text-align: center;
-    font-family:'FFDIN Regular',FFDIN,Arial,sans-serif;
     font-size: 1.2rem;
 }
 
 .contenedor-imagen{
-    background-image: url(../img/rihanna1-photo.png);
+    background-image: url(../img/rihanna-foto.png);
     width: 100%;
     height: 50rem;
     background-repeat: no-repeat;
@@ -114,12 +113,10 @@ header{
 
 .contenedor-imagen h1{
     font-size: 5.5rem;
-    font-family:'FFDIN Regular',FFDIN,Arial,sans-serif;
 }
 
 .contenedor-imagen p{
     font-size: 2rem;
-    font-family:'FFDIN Regular',FFDIN,Arial,sans-serif;
 }
 
 .contenedor-imagen button{
@@ -135,3 +132,53 @@ header{
 .cubo{
     margin-left: 8rem;
 }
+
+/*HEADER*/
+
+/*COMIENZO BODY*/
+
+.contenedor-main1 img,.contenedor-main2 img, .contenedor-main3 img, .contenedor-main4 img{
+    width: 24rem;
+}
+
+
+
+.Titulo-main1{
+    font-size: 1.4rem;
+    text-align: center;
+    font-family:'FFDIN Regular',FFDIN,Arial,sans-serif;
+    color: #222;
+}
+
+.contenedor-main1 p, .contenedor-main2 p ,.contenedor-main3 p, .contenedor-main4 p{
+    font-size: 1.5rem;
+    font-family:'FFDIN Regular',FFDIN,Arial,sans-serif;
+    color: #444;
+}
+
+.contenedor-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-main1,.contenedor-main2,.contenedor-main3{
+    margin-right: 3rem;
+
+}
+
+.precio{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.btn{
+    background-color:white;
+    color: #444;
+    border: none;
+    font-size: 8rem;
+    margin-right: 4rem;
+    margin-left: 3rem;
+}
+
