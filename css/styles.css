@@ -11,10 +11,8 @@ html {
 }
 
 /* HEADER */
-
-header {
-    margin: -0.8rem;
-    padding: 0;
+header{
+    color: white;
 }
 
 .navbar a {
@@ -24,26 +22,25 @@ header {
 
 .contenedor_barracafe {
     width: 100%;
-    height: 4.6rem;
+    height: 4.2rem;
     text-align: center;
     background-color: rgb(174, 148, 109);
 }
 
 .barra_cafeclaro {
     padding: 15px;
-    font: "FFDIN Regular", FFDIN, Arial, sans-serif;
+    font-family: "FFDIN Regular", FFDIN, Arial, sans-serif;
 }
 
 .barra_cafeclaro p {
     margin: 0;
-    color: white;
     font-size: 1.4rem;
 }
 
 .contenedor-nav {
     width: 100%; 
     height: 7rem;
-    background-color: black;
+    background-color:black
 }
 
 .navbar1 {
@@ -55,21 +52,20 @@ header {
 
 .navbar1 a {
     text-decoration: none;
-    color: white;
     font-size: 1.7rem;
     margin-right: 2rem;
+    color: white;
 }
 
 .navbar1 img{
-    width: 15rem;
-    height: 7rem;
+    width: 5.5rem;
+    height: 6rem;
 }
 
 .navbar1 input{
     display: inline-block;
     padding: 10px 20px;
     font-size: 14px;
-    color: white;
     background-color: #000; 
     border: solid #555; 
     border-radius: 5px;
@@ -95,13 +91,47 @@ header {
 .texto-barra-amarilla h1 {
     text-align: center;
     margin-top: 1rem;
-    color: white;
     font: 2rem;
 }
 
 .texto-barra-amarilla p{
     text-align: center;
-    color: white;
-    font: 1.2rem'FFDIN Regular',FFDIN,Arial,sans-serif;
+    font-family:'FFDIN Regular',FFDIN,Arial,sans-serif;
+    font-size: 1.2rem;
 }
 
+.contenedor-imagen{
+    background-image: url(../img/rihanna1-photo.png);
+    width: 100%;
+    height: 50rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+
+.contenedor-imagen h1{
+    font-size: 5.5rem;
+    font-family:'FFDIN Regular',FFDIN,Arial,sans-serif;
+}
+
+.contenedor-imagen p{
+    font-size: 2rem;
+    font-family:'FFDIN Regular',FFDIN,Arial,sans-serif;
+}
+
+.contenedor-imagen button{
+    font-size: 1.2rem;
+    background-color: white;
+    color: #000;
+    width: 50%;
+    height: 4rem;
+    border: none;
+    font-weight: bold;
+}
+
+.cubo{
+    margin-left: 8rem;
+}
