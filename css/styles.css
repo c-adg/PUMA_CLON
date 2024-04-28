@@ -108,7 +108,6 @@ header{
     background-size: cover;
     display: flex;
     align-items: center;
-
 }
 
 .contenedor-imagen h1{
@@ -140,8 +139,6 @@ header{
 .contenedor-main1 img,.contenedor-main2 img, .contenedor-main3 img, .contenedor-main4 img{
     width: 24rem;
 }
-
-
 
 .Titulo-main1{
     font-size: 1.4rem;
@@ -230,3 +227,38 @@ header{
     font-family:'FFDIN Regular',FFDIN,Arial,sans-serif;
 }
 
+.deportistas button{
+    font-size: 1.2rem;
+    background-color:black;
+    color: white;
+    width: 20rem;
+    height: 4rem;
+    font-weight: bold;
+    font-family:'FFDIN Regular',FFDIN,Arial,sans-serif;
+    margin-left: 15rem;
+    border: none;
+}
+
+/*TERMINO BODY*/
+
+/*COMIENZO FOOTER */
+
+.contenedor-footer{
+    background-color: #181818;
+    width: 100%;
+    height: 50rem;
+    margin-top: 3rem;
+}
+
+.contenedor-footer img{
+    width: 6rem;
+    height: 5rem;
+    margin-left: 3.2rem;
+    margin-top: 14rem;
+}
+
+.contenedor-footer p{
+    color: white;
+    font-size: 1.3rem;
+    font-family:'FFDIN Regular',FFDIN,Arial,sans-serif;
+}
